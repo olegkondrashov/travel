@@ -1,0 +1,79 @@
+@import '../../variables';
+
+
+.main {
+    position: relative;
+    height: 811px;
+    padding: 10px 20px 0;
+    &-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 150px;
+        h1, h6, p {
+            color: #fff;
+        }
+        &__title {
+            font: $--heading-mobile-font;
+        }
+        &__subtitle {
+            font: $--heading-6-font;
+        }
+        &__description {
+            margin-top: 25px;
+            font: $--paragraph-font;
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .main-header {
+        gap: 25px;
+        &__subtitle {
+            font: $--heading-7-font;
+        }
+        &__description {
+            font: $--heading-8-font;
+            font-size: 14px;
+        }
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .main-header {
+        &__title {
+            font: $--heading-3-font;
+        }
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+
+@media only screen and (min-width: 992px) {
+    .main {
+        padding: 10px 50px 0;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .main {
+        padding: 32px 170px 0;
+        &-header{
+            margin-top: 100px;
+            &__title {
+                font: $--heading-2-font;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1441px) {
+    .main-header {
+        &__title {
+            font: $--heading-1-font;
+        }
+    }
+}

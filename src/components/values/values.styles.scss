@@ -1,0 +1,52 @@
+@import '../../variables';
+
+.box {
+    margin: 250px auto 0;
+}
+
+.values-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    gap: 50px;
+    img {
+        padding: 15px;
+        object-fit: cover;
+        border-radius: 25px;
+        background: rgba(73, 151, 211, .1);
+    }
+    &__item {
+        max-width: 45%;
+    }
+    &__text-wrapper {
+        font: $--heading-7-font;
+        font-weight: 500;
+    }
+    &__description {
+        font: $--heading-8-font;
+        margin-top: 12px;
+    }
+}
+
+@media screen and (max-width: 515px) {
+    .values-section {
+        &__item {
+            max-width: 100%;
+        }
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .values-section {
+        &__text-wrapper {
+            font: $--heading-7-font;
+            font-weight: 500;
+        }
+        &__description {
+            font: $--heading-8-font;
+            margin-top: 12px;
+        }
+    }
+    
+}

@@ -1,0 +1,62 @@
+@import '../../variables';
+
+.destination {
+    margin-top: 140px;
+    
+    &__header {
+        position: relative;
+        h2 {
+            font: $--heading-mobile-font;
+            color: #F6F6F6;
+        }
+        h6 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -30%);
+            font: $--heading-8-font;
+            letter-spacing: 0;
+            color: #4997D3;
+        }
+    }
+    &__links {
+        margin-top: 40px;
+        &__buttons {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 16px;
+            width: 80%;
+            margin: 0 auto;
+        }
+        &__cards {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 80px;
+        }
+        &__confirm-button {
+            margin-top: 80px;
+            & button {
+                border-radius: 10px;
+                border: 1px solid #4997D3;
+                color: #4997D3;
+                &:hover {
+                    background: #4997D3;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .destination {
+        &__links {
+            &__buttons {
+                flex-direction: row;
+            }
+        }
+    }
+
+}
+

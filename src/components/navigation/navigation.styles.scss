@@ -1,0 +1,128 @@
+@import '../../variables';
+
+.logo {
+    margin-left: 10%;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    nav {
+        order: -1;
+    }
+    .button-sign-in {
+        font-size: 14px;
+        padding: 10px 13px;
+    }
+}
+
+.menu {
+    display: none;
+    list-style: none;
+    padding: 0;
+    & li a {
+        position: relative;
+        text-decoration: none;
+        color: #FFF;
+        font: $--heading-8-font;
+        font-weight: 300;
+        &::before {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background-color: #FFF;
+            transition: width 0.25s ease-in-out;
+        }
+        &:hover {
+            &::before {
+              width: 100%;
+            }
+          }
+    }
+}
+
+
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    & span {
+        display: block;
+        width: 100%;
+        height: 3px;
+        background-color: white;
+        transition: all .5s ease;
+    }
+}
+
+.active {
+    span {
+        &:nth-child(1) {
+            transform: rotate(-45deg) translate(-7px, 7px);
+        }
+        &:nth-child(2) {
+            transform: translateX(-100%);
+        }
+        &:nth-child(3) {
+            transform: rotate(45deg) translate(-7px, -7px);
+        }
+    }
+}
+
+.open {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    flex-direction: column;
+}
+
+@media only screen and (min-width: 600px) {
+    .logo {
+        margin-left: 5%;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+
+    .navigation {
+        nav {
+            order: 0;
+        }
+    }
+    .hamburger {
+        display: none;
+    }
+    .menu {
+        display: flex;
+        gap: 35px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .menu {
+        gap: 50px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .button-sign-in {
+        font: $--heading-7-font;
+        font-weight: 500;
+    }
+    .menu {
+        gap: 70px;
+    }
+    
+}

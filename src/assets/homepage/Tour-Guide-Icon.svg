@@ -1,0 +1,36 @@
+<svg width="56" height="56" viewBox="0 0 69 69" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Tour Guide Icon" clip-path="url(#clip0_64_267)">
+<g id="g2370">
+<g id="g2372">
+<g id="Clip path group">
+<mask id="mask0_64_267" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="69" height="69">
+<g id="clipPath2378">
+<path id="path2376" d="M1.4978e-06 14.4939L54.0918 5.17826e-05L68.5857 54.0919L14.4939 68.5858L1.4978e-06 14.4939Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask0_64_267)">
+<g id="g2374">
+<g id="g2380">
+<path id="path2382" d="M8.79899 13.8347L22.4436 64.7571" stroke="#4997D3" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="g2384">
+<path id="path2386" d="M32.6847 14.7117C31.9311 11.8994 29.0406 10.2303 26.2279 10.984L9.25384 15.5321L15.1665 37.5986L32.1406 33.0504C34.9532 32.2967 37.8438 33.9658 38.5974 36.7781L32.6847 14.7117Z" stroke="#4997D3" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="g2388">
+<path id="path2390" d="M38.5974 36.7782C37.8438 33.9658 34.9532 32.2968 32.1406 33.0504L28.7458 33.96L31.4747 44.1444L34.8695 43.2348C37.6821 42.4811 39.3509 39.5904 38.5974 36.7782Z" stroke="#4997D3" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="g2392">
+<path id="path2394" d="M33.1395 16.4091L38.5974 36.7782C39.3509 39.5904 37.6821 42.4811 34.8695 43.2348L55.2385 37.7769L48.4162 12.3157L33.1395 16.4091Z" stroke="#4997D3" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_64_267">
+<rect width="56" height="56" fill="white" transform="translate(0 14.4939) rotate(-15)"/>
+</clipPath>
+</defs>
+</svg>
