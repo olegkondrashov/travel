@@ -2,23 +2,6 @@
 
 .destination {
     margin-top: 140px;
-    
-    &__header {
-        position: relative;
-        h2 {
-            font: $--heading-mobile-font;
-            color: #F6F6F6;
-        }
-        h6 {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -30%);
-            font: $--heading-8-font;
-            letter-spacing: 0;
-            color: #4997D3;
-        }
-    }
     &__links {
         margin-top: 40px;
         &__buttons {

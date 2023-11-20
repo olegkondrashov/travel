@@ -1,0 +1,47 @@
+@import './variables';
+
+body {
+  margin: 0;
+  font-family: 'Poppins', 'Oswald', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.section-header {
+    position: relative;
+        h2 {
+            font: $--heading-mobile-font;
+            color: #F6F6F6;
+        }
+        h6 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -30%);
+            font: $--heading-8-font;
+            letter-spacing: 0;
+            color: #4997D3;
+        }
+}
+
+@media screen and (min-width: 769px) {
+    .section-header {
+        h2 {
+            font: $--heading-3-font;
+        }
+        h6 {
+            font: $--heading-7-font;
+        }
+    }
+}
+
+@media screen and (min-width: 1441px) {
+    .section-header {
+        h2 {
+            font: $--heading-2-font;
+        }
+        h6 {
+            font: $--heading-6-font;
+        }
+    }
+}

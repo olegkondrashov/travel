@@ -17,7 +17,8 @@ export const TransparentButton = styled.button`
 `
 
 export const BlueButton = styled(TransparentButton)`
-    padding: 25px 45px;
+    height: 70px;
+    padding: 20px 40px;
     background: #4997D3;
     border: none;
     &:hover {

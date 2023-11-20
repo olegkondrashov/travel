@@ -30,8 +30,8 @@ const Destination = () => {
     ]
 
     return (
-        <div className="destination">
-            <div className="destination__header">
+        <section className="destination">
+            <div className="section-header destination__header">
                 <h2>DESTINATION</h2>
                 <h6>POPULAR DESTINATIONS</h6>
             </div>
@@ -62,7 +62,7 @@ const Destination = () => {
                     </Button>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 
