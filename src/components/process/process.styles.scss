@@ -1,6 +1,7 @@
 @import '../../variables';
 
 .process {
+    padding: 120px 0;
     background: #F6F6F6;
     &__header h2{
         color: #fff;
@@ -57,7 +58,7 @@
         }
         &__items {
             justify-content: space-between;
-            height: 250px;
+            flex-wrap: nowrap;
         }
         &__item {
             &:hover .visualisation__item__icon>svg{

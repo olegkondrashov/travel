@@ -1,0 +1,48 @@
+@import '../../variables';
+
+.quality{
+    display: flex;
+    justify-content: center;
+    padding: 140px 50px;
+    gap: 80px;
+    &__information,
+    &__statistics {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: start;
+        &__title {
+            font: $--heading-3-font;
+        }
+        &__subtitle { 
+            font: $--paragraph-font;
+        }
+    }
+    &__image {
+        & img {
+            object-fit: cover;
+            height: 100%;
+            width: 650px;
+            border-radius: 25px;
+        }
+    }
+    &__statistics {
+        & div {
+            height: 100%;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+            padding-top: 40px;
+            h5 {
+                font: $--heading-5-font;
+            }
+            p {
+                font: $--paragraph-font;
+            }
+        }
+        & div:first-child {
+            padding-top: 0;
+        }
+        & div:last-child {
+            border-bottom: none;
+        }
+    }
+}
