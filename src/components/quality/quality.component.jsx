@@ -7,13 +7,13 @@ const Quality = () => {
         <section className='quality'>
             <div className='quality__information'>
                 <h3 className='quality__information__title'>
-                    Only The <br />
-                    Best Quality <br />
+                    Only The 
+                    Best Quality 
                     For You
                 </h3>
                 <p className='quality__information__subtitle'>
-                    From Planning to Post-Trip Follow-Up, we have all <br />
-                    the best services special for you. Take a look at <br />
+                    From Planning to Post-Trip Follow-Up, we have all 
+                    the best services special for you. Take a look at 
                     our numbers for our credibility.
                 </p>
             </div>
