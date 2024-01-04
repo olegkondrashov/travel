@@ -20,14 +20,6 @@
         }
         &__confirm-button {
             margin-top: 80px;
-            & button {
-                border-radius: 10px;
-                border: 1px solid #4997D3;
-                color: #4997D3;
-                &:hover {
-                    background: #4997D3;
-                }
-            }
         }
     }
 }

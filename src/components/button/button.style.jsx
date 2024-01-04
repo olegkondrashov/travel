@@ -40,3 +40,19 @@ export const GrayButton = styled(BlueButton)`
         background-color: #4997D3;
     }
 `
+
+export const TransparentBlueButton = styled(TransparentButton)`
+    border: 1px solid #4997D3;
+    color: #4997D3;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    gap: 10px;
+    &:hover {
+        background-color: #4997D3;
+        color: #fff;
+        & svg path {
+            fill: #fff;
+        }
+    }
+`

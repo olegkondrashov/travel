@@ -1,10 +1,11 @@
-import { BlueButton,GrayButton, RoundedButton, TransparentButton } from "./button.style";
+import { BlueButton,GrayButton, RoundedButton, TransparentBlueButton, TransparentButton } from "./button.style";
 
 export const BUTTON_TYPE_CLASSES = {
     transparent: 'transparent',
     blue: 'blue',
     gray: 'gray',
-    rounded: 'rounded'
+    rounded: 'rounded',
+    transparentBlue: 'transparentBlue'
 }
 
 const getButton = (buttonType = BUTTON_TYPE_CLASSES.transparent) => 
@@ -13,6 +14,7 @@ const getButton = (buttonType = BUTTON_TYPE_CLASSES.transparent) =>
         [BUTTON_TYPE_CLASSES.blue]: BlueButton,
         [BUTTON_TYPE_CLASSES.gray]: GrayButton,
         [BUTTON_TYPE_CLASSES.rounded]: RoundedButton,
+        [BUTTON_TYPE_CLASSES.transparentBlue]: TransparentBlueButton,
     }[buttonType]);
 
 const Button = ({children, buttonType, ...otherProps}) => {

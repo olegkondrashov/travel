@@ -57,7 +57,7 @@ const Destination = () => {
                     }
                 </div>
                 <div className='destination__links__confirm-button'>
-                    <Button buttonType={BUTTON_TYPE_CLASSES.transparent}>
+                    <Button buttonType={BUTTON_TYPE_CLASSES.transparentBlue}>
                         Load More Destinations
                     </Button>
                 </div>
