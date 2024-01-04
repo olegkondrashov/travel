@@ -1,4 +1,4 @@
-import { BlueButton,GrayButton, RoundedButton, TransparentBlueButton, TransparentButton } from "./button.style";
+import { BlueButton, GrayButton, RoundedButton, TransparentBlueButton, TransparentButton } from "./button.style";
 
 export const BUTTON_TYPE_CLASSES = {
     transparent: 'transparent',

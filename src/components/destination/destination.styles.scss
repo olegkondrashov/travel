@@ -11,6 +11,10 @@
             gap: 16px;
             width: 80%;
             margin: 0 auto;
+            & button:first-child {
+                background: #4997D3;
+                color: #fff;
+            }
         }
         &__cards {
             display: flex;

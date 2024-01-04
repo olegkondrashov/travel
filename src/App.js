@@ -1,5 +1,6 @@
 
 import "./App.scss";
+import Booking from "./components/booking/booking.component";
 import Destination from "./components/destination/destination.component";
 import Gallery from "./components/gallery/gallery.compomemt";
 import Main from "./components/main/main.component";
@@ -22,6 +23,7 @@ function App() {
         <Quality/>
         <Reviews/>
         <Gallery/>
+        <Booking/>
     </div>
   );
 }
