@@ -28,6 +28,18 @@
     }
 }
 
+@media only screen and (max-width: 768px) {
+    .destination {
+        &__links {
+            &__cards {
+                gap: 30px;
+            }
+        }
+    }
+
+}
+
+
 @media only screen and (min-width: 800px) {
     .destination {
         &__links {

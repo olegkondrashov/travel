@@ -1,5 +1,6 @@
 
 import "./App.scss";
+import Blog from "./components/blog/blog.component";
 import Booking from "./components/booking/booking.component";
 import Destination from "./components/destination/destination.component";
 import Gallery from "./components/gallery/gallery.compomemt";
@@ -24,6 +25,7 @@ function App() {
         <Reviews/>
         <Gallery/>
         <Booking/>
+        <Blog/>
     </div>
   );
 }
