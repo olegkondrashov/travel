@@ -8,6 +8,7 @@ import Main from "./components/main/main.component";
 import Process from "./components/process/process.component";
 import Promo from "./components/promo/promo.component";
 import Quality from "./components/quality/quality.component";
+import Questions from "./components/questions/questions.component";
 import Reviews from "./components/reviews/reviews.component";
 import Values from "./components/values/values.component";
 
@@ -26,6 +27,7 @@ function App() {
         <Gallery/>
         <Booking/>
         <Blog/>
+        <Questions/>
     </div>
   );
 }
