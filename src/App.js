@@ -4,6 +4,7 @@ import Blog from "./components/blog/blog.component";
 import Booking from "./components/booking/booking.component";
 import Destination from "./components/destination/destination.component";
 import Gallery from "./components/gallery/gallery.compomemt";
+import MainFooter from "./components/main-footer/main-footer.component";
 import Main from "./components/main/main.component";
 import Process from "./components/process/process.component";
 import Promo from "./components/promo/promo.component";
@@ -28,6 +29,7 @@ function App() {
         <Booking/>
         <Blog/>
         <Questions/>
+        <MainFooter/>
     </div>
   );
 }
