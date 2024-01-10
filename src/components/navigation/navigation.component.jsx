@@ -2,6 +2,7 @@ import { useState } from 'react';
 import './navigation.styles.scss';
 import Button, { BUTTON_TYPE_CLASSES } from '../button/button.component';
 import { Link } from 'react-router-dom';
+import Destinations from '../../pages/destinations/destinations.component';
 
 const Navigation = () => {
 
@@ -34,7 +35,7 @@ const Navigation = () => {
                     <span></span>
                 </div>
                 <ul className={`menu ${isActive ? 'open' : ''}`}>
-                    <li><Link to="/destinations">Destinations</Link></li>
+                    <li><Link to="/destinations" element={<Destinations />}>Destinations</Link></li>
                     <li><Link to="/tours">Tours</Link></li>
                     <li><Link to="/about">About</Link></li>
                     <li><Link to="/blog">Blog</Link></li>
