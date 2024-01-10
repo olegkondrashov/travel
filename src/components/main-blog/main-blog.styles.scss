@@ -1,6 +1,6 @@
 @import '../../variables';
 
-.blog{
+.main-blog{
     padding: 110px 80px;
     &__content {
         display: grid;
@@ -36,14 +36,14 @@
     }
 }
 
-.blog-item {
+.main-blog-item {
     background: linear-gradient(0deg, #222 0%, rgba(34, 34, 34, 0.4) 100%);
     &__button {
         display: none;
     }
     &:hover {
         background: linear-gradient(0deg, #222 0%, rgba(34, 34, 34, 0.00) 70%);
-        .blog-item__button {
+        .main-blog-item__button {
             display: block;
         }
     }
@@ -89,7 +89,7 @@
 }
 
 @media only screen and (max-width: 1024px) {
-    .blog {
+    .main-blog {
         padding: 50px 15px 50px;
         &__content {
             grid-template-columns: 100%;
@@ -102,7 +102,7 @@
             }
         }
     }
-    .blog-item {
+    .main-blog-item {
         background: linear-gradient(0deg, #222 0%, rgba(34, 34, 34, 0.00) 70%);
         &__content {
             &>h3 {
@@ -132,10 +132,10 @@
 }
 
 @media only screen and (min-width: 1024px) {
-    .blog {
+    .main-blog {
         padding: 50px 100px;
     }
-    .blog-item {
+    .main-blog-item {
         &__content {
             &>h3 {
                 font: bold 80px/80px "Oswald";
@@ -148,10 +148,10 @@
 }
 
 @media only screen and (min-width: 1440px) {
-    .blog {
+    .main-blog {
         padding: 100px 200px;
     }
-    .blog-item {
+    .main-blog-item {
         &__content {
             &>h3 {
                 font: $--heading-3-font;

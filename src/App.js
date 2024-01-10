@@ -1,6 +1,6 @@
 
+import { Outlet } from "react-router-dom";
 import "./App.scss";
-import Blog from "./components/blog/blog.component";
 import Booking from "./components/booking/booking.component";
 import Destination from "./components/destination/destination.component";
 import Gallery from "./components/gallery/gallery.compomemt";
@@ -12,12 +12,15 @@ import Quality from "./components/quality/quality.component";
 import Questions from "./components/questions/questions.component";
 import Reviews from "./components/reviews/reviews.component";
 import Values from "./components/values/values.component";
+import Navigation from "./components/navigation/navigation.component";
+import MainBlog from "./components/main-blog/main-blog.component";
 
 function App() {
   
 
   return (
     <div className="App">
+        <Navigation/>
         <Main/>
         <Values/>
         <Destination/>
@@ -27,9 +30,10 @@ function App() {
         <Reviews/>
         <Gallery/>
         <Booking/>
-        <Blog/>
+        <MainBlog/>
         <Questions/>
         <MainFooter/>
+        <Outlet/>
     </div>
   );
 }

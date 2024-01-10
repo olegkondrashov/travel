@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import partner1 from '../../assets/homepage/main-footer/Logo1.png';
 import partner2 from '../../assets/homepage/main-footer/Logo2.png';
 import partner3 from '../../assets/homepage/main-footer/Logo3.png';
@@ -42,25 +43,15 @@ const MainFooter = () => {
                 </a>
                 <nav>
                     <ul className="nav-list">
-                        <li>
-                            <a className="nav-link" href="#/">Destinations</a>
-                        </li>
-                        <li>
-                            <a className="nav-link" href="/#">Tours</a>
-                        </li>
-                        <li>
-                            <a className="nav-link" href="/#">About</a>
-                        </li>
-                        <li>
-                            <a className="nav-link" href="/#">Blog</a>
-                        </li>
-                        <li>
-                            <a className="nav-link" href="/#">Contact</a>
-                        </li>
+                        <li><Link className="nav-link"  to="/destinations">Destinations</Link></li>
+                        <li><Link className="nav-link"  to="/tours">Tours</Link></li>
+                        <li><Link className="nav-link"  to="/about">About</Link></li>
+                        <li><Link className="nav-link"  to="/blog">Blog</Link></li>
+                        <li><Link className="nav-link"  to="/contact">Contact</Link></li>
                     </ul>
                 </nav>
                 <div className="social-media-icons">
-                    <a href="/#">
+                    <a href="/">
                         <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none">
                             <g clipPath="url(#clip0_1_263)">
                             <path d="M56 28C56 12.5344 43.4656 0 28 0C12.5344 0 0 12.5344 0 28C0 43.4656 12.5344 56 28 56C28.1641 56 28.3281 56 28.4922 55.9891V34.2016H22.4766V27.1906H28.4922V22.0281C28.4922 16.0453 32.1453 12.7859 37.4828 12.7859C40.0422 12.7859 42.2406 12.9719 42.875 13.0594V19.3156H39.2C36.3016 19.3156 35.7328 20.6938 35.7328 22.7172V27.1797H42.6781L41.7703 34.1906H35.7328V54.9172C47.4359 51.5594 56 40.7859 56 28Z" fill="white"/>
@@ -72,7 +63,7 @@ const MainFooter = () => {
                             </defs>
                         </svg>
                     </a>
-                    <a href="/#">
+                    <a href="/">
                         <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none">
                             <g clipPath="url(#clip0_1_265)">
                             <path d="M28 0C12.5609 0 0 12.5609 0 28C0 43.438 12.5609 56 28 56C43.438 56 56 43.438 56 28C56 12.5609 43.4403 0 28 0ZM40.4909 21.5916C40.5033 21.869 40.5101 22.1487 40.5101 22.4284C40.5101 30.9448 34.0295 40.7616 22.1724 40.7616C18.5328 40.7616 15.1448 39.6981 12.2936 37.8687C12.7977 37.9285 13.3109 37.9589 13.8308 37.9589C16.8512 37.9589 19.6291 36.9281 21.8352 35.2002C19.0155 35.1483 16.6347 33.2851 15.8147 30.7238C16.2072 30.7982 16.6121 30.8399 17.026 30.8399C17.6136 30.8399 18.1843 30.7632 18.7246 30.6155C15.7764 30.0245 13.5556 27.4203 13.5556 24.2961C13.5556 24.2691 13.5556 24.2409 13.5568 24.2149C14.4252 24.6965 15.4188 24.9875 16.4745 25.0202C14.7466 23.8664 13.6086 21.8927 13.6086 19.6573C13.6086 18.4753 13.9256 17.3678 14.4805 16.4159C17.6576 20.316 22.4081 22.8807 27.7631 23.1514C27.6526 22.6788 27.5974 22.1882 27.5974 21.6818C27.5974 18.1234 30.4824 15.2372 34.0408 15.2372C35.8949 15.2372 37.5675 16.02 38.745 17.2719C40.2146 16.9832 41.5906 16.4486 42.8391 15.7076C42.3541 17.2132 41.3357 18.4753 40.0014 19.2738C41.3064 19.1182 42.5515 18.7731 43.703 18.2599C42.8436 19.5501 41.7507 20.6859 40.4909 21.5916Z" fill="white"/>
@@ -84,7 +75,7 @@ const MainFooter = () => {
                             </defs>
                         </svg>
                     </a>
-                    <a href="/#">
+                    <a href="/">
                         <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none">
                             <g clipPath="url(#clip0_1_269)">
                             <path d="M33.3594 28C33.3594 30.96 30.96 33.3594 28 33.3594C25.04 33.3594 22.6406 30.96 22.6406 28C22.6406 25.04 25.04 22.6406 28 22.6406C30.96 22.6406 33.3594 25.04 33.3594 28Z" fill="white"/>

@@ -36,9 +36,7 @@ const SearchForm = () => {
                         value={destination}
                         onChange={(e) => setDestination(e.target.value)}
                     >
-                        <option value="Yogyakarta, Indonesia">
-                        Yogyakarta, Indonesia
-                        </option>
+                        <option value="Yogyakarta, Indonesia">Yogyakarta, Indonesia</option>
                         <option value="Greece">Greece</option>
                         <option value="Italy">Italy</option>
                     </select>

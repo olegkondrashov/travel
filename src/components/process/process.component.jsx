@@ -1,6 +1,6 @@
 
 import line from '../../assets/homepage/Line.png';
-import { planningIcon, bookingIcon, preparationIcon, experienceIcon } from '../../assets/icons';
+import { planningIcon, bookingIcon, preparationIcon, experienceIcon } from '../../assets/icons.component';
 
 import './process.styles.scss';
 
