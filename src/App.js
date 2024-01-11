@@ -12,15 +12,16 @@ import Quality from "./components/quality/quality.component";
 import Questions from "./components/questions/questions.component";
 import Reviews from "./components/reviews/reviews.component";
 import Values from "./components/values/values.component";
-import Navigation from "./components/navigation/navigation.component";
 import MainBlog from "./components/main-blog/main-blog.component";
+import Header from "./components/header/header.component";
+import PageUp from "./components/page-up/page-up.component";
 
 function App() {
   
 
   return (
     <div className="App">
-        <Navigation/>
+        <Header/>
         <Main/>
         <Values/>
         <Destination/>
@@ -34,6 +35,7 @@ function App() {
         <Questions/>
         <MainFooter/>
         <Outlet/>
+        <PageUp/>
     </div>
   );
 }

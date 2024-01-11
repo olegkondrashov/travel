@@ -5,6 +5,11 @@ body {
   font-family: 'Poppins', 'Oswald', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  position: relative;
+}
+
+a {
+    text-decoration: none;
 }
 
 .section-header {

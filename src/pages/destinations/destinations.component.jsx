@@ -1,4 +1,4 @@
-import Navigation from "../../components/navigation/navigation.component";
+
 import img1 from "../../assets/picture1_1.webp";
 import img2 from "../../assets/picture2_2.webp";
 import img3 from "../../assets/picture3_3.webp";
@@ -8,6 +8,8 @@ import searchIcon from "../../assets/icons/search_icon.png";
 
 import "./destinations.styles.scss";
 import Footer from "../../components/footer/footer.component";
+import Header from "../../components/header/header.component";
+import PageUp from "../../components/page-up/page-up.component";
 
 const Destinations = () => {
 
@@ -15,7 +17,7 @@ const Destinations = () => {
   return (
     <section className="destinations">
         <section className="hero">
-            <Navigation />
+            <Header />
             <div className="container">
                 <div>
                     <a className="hero-link" href="/">Home</a>
@@ -768,6 +770,7 @@ const Destinations = () => {
         </section>
 
         <Footer/>
+        <PageUp/>
     </section>
   );
 };

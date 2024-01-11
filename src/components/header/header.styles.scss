@@ -1,0 +1,36 @@
+@import '../../variables';
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    z-index: 1;
+    padding: 10px 20px 0;
+    
+    .button-sign-in {
+        font-size: 14px;
+        padding: 10px 13px;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .header {
+        width: 100%;
+    }
+
+}
+
+
+@media only screen and (min-width: 1200px) {
+    .button-sign-in {
+        font: $--heading-7-font;
+        font-weight: 500;
+    }
+    
+}

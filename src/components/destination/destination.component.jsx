@@ -6,6 +6,8 @@ import thailand from '../../assets/homepage/thailand.jpg';
 import japan from '../../assets/homepage/japan.jpg';
 import greece from '../../assets/homepage/greece.jpg';
 import switzerland from '../../assets/homepage/switzerland.jpg';
+import { Link } from 'react-router-dom';
+import Destinations from '../../pages/destinations/destinations.component';
 
 const Destination = () => {
 
@@ -57,9 +59,11 @@ const Destination = () => {
                     }
                 </div>
                 <div className='destination__links__confirm-button'>
-                    <Button buttonType={BUTTON_TYPE_CLASSES.transparentBlue}>
-                        Load More Destinations
-                    </Button>
+                    <Link to='/destinations' element={<Destinations />}>
+                        <Button buttonType={BUTTON_TYPE_CLASSES.transparentBlue}>
+                            Load More Destinations
+                        </Button>
+                    </Link>
                 </div>
             </div>
         </section>

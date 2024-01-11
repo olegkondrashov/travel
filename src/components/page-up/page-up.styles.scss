@@ -1,0 +1,22 @@
+button.page-up {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    svg{
+        border-radius: 50%;
+        transform: rotate(-90deg);
+        path {
+            fill: rgba(73, 151, 211, .5);
+        }
+    }
+}
+
+@media only screen and (max-width: 768px){
+    button.page-up {
+        background: none;
+        svg{
+            height: 60px;
+            width: 60px;
+        }
+    }
+}

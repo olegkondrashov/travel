@@ -1,28 +1,9 @@
 @import '../../variables';
 
-.logo {
-    margin-left: 10%;
+.navigation {
+    order: -1;
 }
 
-.navigation {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 85%;
-    z-index: 1;
-    padding: 10px 20px 0;
-    nav {
-        order: -1;
-    }
-    .button-sign-in {
-        font-size: 14px;
-        padding: 10px 13px;
-    }
-}
 
 .menu {
     display: none;
@@ -101,26 +82,10 @@
     background: rgba(0, 0, 0, .9);
 }
 
-@media only screen and (max-width: 768px) {
-    .navigation {
-        width: 100%;
-    }
-
-}
-
-@media only screen and (min-width: 600px) {
-    .logo {
-        margin-left: 5%;
-    }
-
-}
-
 @media only screen and (min-width: 768px) {
 
     .navigation {
-        nav {
-            order: 0;
-        }
+        order: 0;
     }
     .hamburger {
         display: none;
@@ -138,12 +103,7 @@
 }
 
 @media only screen and (min-width: 1200px) {
-    .button-sign-in {
-        font: $--heading-7-font;
-        font-weight: 500;
-    }
     .menu {
         gap: 70px;
     }
-    
 }
