@@ -79,22 +79,7 @@ button {
 		}
 	}
 }
-.hero-link {
-	display: inline-block;
-	position: relative;
-	&:hover {
-		&::after {
-			content: '';
-			height: 2px;
-			width: 100%;
-			display: block;
-			position: absolute;
-			bottom: -5px;
-			background: #fff;
-			animation: link-hover .2s linear;
-		}
-	}
-}
+
 .btn {
 	width: 116px;
 	height: 62px;
@@ -132,36 +117,7 @@ button {
 		}
 	}
 }
-.hero {
-	position: relative;
-	height: 100vh;
-	background: no-repeat center/cover url("/assets/bg_1.webp");
-}
-.container {
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
-	text-align: center;
-	width: 100%;
-	color: #fff;
-	a {
-		color: #fff;
-		text-decoration: none;
-		font-size: 20px;
-	}
-    div {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
-    }
-}
-.title {
-	color: #fff;
-	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-	font: $--heading-2-font;
-}
+
 .destination1 {
 	padding: 20px 100px;
 }
@@ -486,9 +442,6 @@ button {
 }
 
 @media screen and (max-width: 1200px) {
-    .title {
-        font: $--heading-3-font;
-    }
 	.cards-grid {
 		.card-content {
 			padding: 70px 10px 15px;
@@ -605,9 +558,6 @@ button {
 	}
 }
 @media screen and (max-width: 768px) {
-    .title {
-		font-size: 75px;
-	}
 	.bar-section__buttons {
 		.button-with-icon {
 			width: 100%;
@@ -617,9 +567,6 @@ button {
 	
 }
 @media screen and (max-width: 576px) {
-	.title {
-		font-size: 50px;
-	}
 	.bar-section {
 		grid-template-columns: 1fr;
 	}

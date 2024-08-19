@@ -102,7 +102,7 @@ export const destinations = [
         name: "Peru",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "nature",
+        destination: "",
     },
     {
         img: img3,
@@ -111,7 +111,7 @@ export const destinations = [
         name: "France",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "nature",
+        destination: "",
     },
     {
         img: img5,
@@ -120,7 +120,7 @@ export const destinations = [
         name: "Austria",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "nature",
+        destination: "",
     },
     {
         img: img2,
@@ -129,7 +129,7 @@ export const destinations = [
         name: "Switzerland",
         description:
             "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
-        destination: "best",
+        destination: "",
     },
     {
         img: img1,
@@ -138,7 +138,7 @@ export const destinations = [
         name: "Australia",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "nature",
+        destination: "",
     },
     {
         img: img3,
@@ -147,7 +147,7 @@ export const destinations = [
         name: "Slovenia",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "city",
+        destination: "",
     },
     {
         img: img4,
@@ -156,7 +156,7 @@ export const destinations = [
         name: "Estonia",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "seasonal",
+        destination: "",
     },
     {
         img: img5,
@@ -165,7 +165,7 @@ export const destinations = [
         name: "Finland",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "best",
+        destination: "",
     },
     {
         img: img2,
@@ -174,7 +174,7 @@ export const destinations = [
         name: "Switzerland",
         description:
             "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
-        destination: "best",
+        destination: "",
     },
     {
         img: img1,
@@ -183,7 +183,7 @@ export const destinations = [
         name: "Japan",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "nature",
+        destination: "",
     },
     {
         img: img3,
@@ -192,7 +192,7 @@ export const destinations = [
         name: "Thailand",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "city",
+        destination: "",
     },
     {
         img: img4,
@@ -201,7 +201,7 @@ export const destinations = [
         name: "Norwegen",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "seasonal",
+        destination: "",
     },
     {
         img: img5,
@@ -210,7 +210,7 @@ export const destinations = [
         name: "Germany",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "best",
+        destination: "",
     },
     {
         img: img1,
@@ -219,7 +219,7 @@ export const destinations = [
         name: "Italy",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "seasonal",
+        destination: "",
     },
     {
         img: img2,
@@ -228,7 +228,7 @@ export const destinations = [
         name: "China",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "city",
+        destination: "",
     },
     {
         img: img5,
@@ -237,7 +237,7 @@ export const destinations = [
         name: "Ukraine",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "nature",
+        destination: "",
     },
     {
         img: img1,
@@ -246,7 +246,7 @@ export const destinations = [
         name: "Denmark",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "best",
+        destination: "",
     },
     {
         img: img4,
@@ -255,7 +255,7 @@ export const destinations = [
         name: "Poland",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "nature",
+        destination: "",
     },
     {
         img: img2,
@@ -264,7 +264,7 @@ export const destinations = [
         name: "Peru",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "nature",
+        destination: "",
     },
     {
         img: img3,
@@ -273,7 +273,7 @@ export const destinations = [
         name: "France",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "nature",
+        destination: "",
     },
     {
         img: img5,
@@ -282,7 +282,7 @@ export const destinations = [
         name: "Austria",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "nature",
+        destination: "",
     },
     {
         img: img2,
@@ -291,7 +291,7 @@ export const destinations = [
         name: "Switzerland",
         description:
             "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
-        destination: "best",
+        destination: "",
     },
     {
         img: img1,
@@ -300,7 +300,7 @@ export const destinations = [
         name: "Australia",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "nature",
+        destination: "",
     },
     {
         img: img3,
@@ -309,7 +309,7 @@ export const destinations = [
         name: "Slovenia",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "city",
+        destination: "",
     },
     {
         img: img4,
@@ -318,7 +318,7 @@ export const destinations = [
         name: "Estonia",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "seasonal",
+        destination: "",
     },
     {
         img: img5,
@@ -327,7 +327,7 @@ export const destinations = [
         name: "Finland",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "best",
+        destination: "",
     },
     {
         img: img2,
@@ -336,7 +336,7 @@ export const destinations = [
         name: "Switzerland",
         description:
             "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
-        destination: "best",
+        destination: "",
     },
     {
         img: img1,
@@ -345,7 +345,7 @@ export const destinations = [
         name: "Japan",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "nature",
+        destination: "",
     },
     {
         img: img3,
@@ -354,7 +354,7 @@ export const destinations = [
         name: "Thailand",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "city",
+        destination: "",
     },
     {
         img: img4,
@@ -363,7 +363,7 @@ export const destinations = [
         name: "Norwegen",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "seasonal",
+        destination: "",
     },
     {
         img: img5,
@@ -372,7 +372,7 @@ export const destinations = [
         name: "Germany",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "best",
+        destination: "",
     },
     {
         img: img1,
@@ -381,7 +381,7 @@ export const destinations = [
         name: "Italy",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "seasonal",
+        destination: "",
     },
     {
         img: img2,
@@ -390,7 +390,7 @@ export const destinations = [
         name: "China",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "city",
+        destination: "",
     },
     {
         img: img5,
@@ -399,7 +399,7 @@ export const destinations = [
         name: "Ukraine",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "nature",
+        destination: "",
     },
     {
         img: img1,
@@ -408,7 +408,7 @@ export const destinations = [
         name: "Denmark",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "best",
+        destination: "",
     },
     {
         img: img4,
@@ -417,7 +417,7 @@ export const destinations = [
         name: "Poland",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "nature",
+        destination: "",
     },
     {
         img: img2,
@@ -426,7 +426,7 @@ export const destinations = [
         name: "Peru",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "nature",
+        destination: "",
     },
     {
         img: img3,
@@ -435,7 +435,7 @@ export const destinations = [
         name: "France",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "nature",
+        destination: "",
     },
     {
         img: img5,
@@ -444,7 +444,7 @@ export const destinations = [
         name: "Austria",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "nature",
+        destination: "",
     },
     {
         img: img2,
@@ -453,7 +453,7 @@ export const destinations = [
         name: "Switzerland",
         description:
             "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
-        destination: "best",
+        destination: "",
     },
     {
         img: img1,
@@ -462,7 +462,7 @@ export const destinations = [
         name: "Australia",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "nature",
+        destination: "",
     },
     {
         img: img3,
@@ -471,7 +471,7 @@ export const destinations = [
         name: "Slovenia",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "city",
+        destination: "",
     },
     {
         img: img4,
@@ -480,7 +480,7 @@ export const destinations = [
         name: "Estonia",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "seasonal",
+        destination: "",
     },
     {
         img: img5,
@@ -489,7 +489,7 @@ export const destinations = [
         name: "Finland",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "best",
+        destination: "",
     },
     {
         img: img2,
@@ -498,7 +498,7 @@ export const destinations = [
         name: "Switzerland",
         description:
             "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
-        destination: "best",
+        destination: "",
     },
     {
         img: img1,
@@ -507,7 +507,7 @@ export const destinations = [
         name: "Japan",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "nature",
+        destination: "",
     },
     {
         img: img3,
@@ -516,7 +516,7 @@ export const destinations = [
         name: "Thailand",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "city",
+        destination: "",
     },
     {
         img: img4,
@@ -525,7 +525,7 @@ export const destinations = [
         name: "Norwegen",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "seasonal",
+        destination: "",
     },
     {
         img: img5,
@@ -534,7 +534,7 @@ export const destinations = [
         name: "Germany",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "best",
+        destination: "",
     },
     {
         img: img1,
@@ -543,7 +543,7 @@ export const destinations = [
         name: "Italy",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "seasonal",
+        destination: "",
     },
     {
         img: img2,
@@ -552,7 +552,7 @@ export const destinations = [
         name: "China",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "city",
+        destination: "",
     },
     {
         img: img5,
@@ -561,7 +561,7 @@ export const destinations = [
         name: "Ukraine",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "nature",
+        destination: "",
     },
     {
         img: img1,
@@ -570,7 +570,7 @@ export const destinations = [
         name: "Denmark",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "best",
+        destination: "",
     },
     {
         img: img4,
@@ -579,7 +579,7 @@ export const destinations = [
         name: "Poland",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "nature",
+        destination: "",
     },
     {
         img: img2,
@@ -588,7 +588,7 @@ export const destinations = [
         name: "Peru",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "nature",
+        destination: "",
     },
     {
         img: img3,
@@ -597,7 +597,7 @@ export const destinations = [
         name: "France",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "nature",
+        destination: "",
     },
     {
         img: img5,
@@ -606,7 +606,7 @@ export const destinations = [
         name: "Austria",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "nature",
+        destination: "",
     },
     {
         img: img2,
@@ -615,7 +615,7 @@ export const destinations = [
         name: "Switzerland",
         description:
             "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
-        destination: "best",
+        destination: "",
     },
     {
         img: img1,
@@ -624,7 +624,7 @@ export const destinations = [
         name: "Australia",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "nature",
+        destination: "",
     },
     {
         img: img3,
@@ -633,7 +633,7 @@ export const destinations = [
         name: "Slovenia",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "city",
+        destination: "",
     },
     {
         img: img4,
@@ -642,7 +642,7 @@ export const destinations = [
         name: "Estonia",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "seasonal",
+        destination: "",
     },
     {
         img: img5,
@@ -651,7 +651,7 @@ export const destinations = [
         name: "Finland",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "best",
+        destination: "",
     },
     {
         img: img2,
@@ -660,7 +660,7 @@ export const destinations = [
         name: "Switzerland",
         description:
             "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
-        destination: "best",
+        destination: "",
     },
     {
         img: img1,
@@ -669,7 +669,7 @@ export const destinations = [
         name: "Japan",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "nature",
+        destination: "",
     },
     {
         img: img3,
@@ -678,7 +678,7 @@ export const destinations = [
         name: "Thailand",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "city",
+        destination: "",
     },
     {
         img: img4,
@@ -687,7 +687,7 @@ export const destinations = [
         name: "Norwegen",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "seasonal",
+        destination: "",
     },
     {
         img: img5,
@@ -696,7 +696,7 @@ export const destinations = [
         name: "Germany",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "best",
+        destination: "",
     },
     {
         img: img1,
@@ -705,7 +705,7 @@ export const destinations = [
         name: "Italy",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "seasonal",
+        destination: "",
     },
     {
         img: img2,
@@ -714,7 +714,7 @@ export const destinations = [
         name: "China",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "city",
+        destination: "",
     },
     {
         img: img5,
@@ -723,7 +723,7 @@ export const destinations = [
         name: "Ukraine",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "nature",
+        destination: "",
     },
     {
         img: img1,
@@ -732,7 +732,7 @@ export const destinations = [
         name: "Denmark",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "best",
+        destination: "",
     },
     {
         img: img4,
@@ -741,7 +741,7 @@ export const destinations = [
         name: "Poland",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "nature",
+        destination: "",
     },
     {
         img: img2,
@@ -750,7 +750,7 @@ export const destinations = [
         name: "Peru",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "nature",
+        destination: "",
     },
     {
         img: img3,
@@ -759,7 +759,7 @@ export const destinations = [
         name: "France",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "nature",
+        destination: "",
     },
     {
         img: img5,
@@ -768,7 +768,7 @@ export const destinations = [
         name: "Austria",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "nature",
+        destination: "",
     },
     {
         img: img2,
@@ -777,7 +777,7 @@ export const destinations = [
         name: "Switzerland",
         description:
             "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
-        destination: "best",
+        destination: "",
     },
     {
         img: img1,
@@ -786,7 +786,7 @@ export const destinations = [
         name: "Australia",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "nature",
+        destination: "",
     },
     {
         img: img3,
@@ -795,7 +795,7 @@ export const destinations = [
         name: "Slovenia",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "city",
+        destination: "",
     },
     {
         img: img4,
@@ -804,7 +804,7 @@ export const destinations = [
         name: "Estonia",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "seasonal",
+        destination: "",
     },
     {
         img: img5,
@@ -813,7 +813,7 @@ export const destinations = [
         name: "Finland",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "best",
+        destination: "",
     },
     {
         img: img2,
@@ -822,7 +822,7 @@ export const destinations = [
         name: "Switzerland",
         description:
             "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
-        destination: "best",
+        destination: "",
     },
     {
         img: img1,
@@ -831,7 +831,7 @@ export const destinations = [
         name: "Japan",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "nature",
+        destination: "",
     },
     {
         img: img3,
@@ -840,7 +840,7 @@ export const destinations = [
         name: "Thailand",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "city",
+        destination: "",
     },
     {
         img: img4,
@@ -849,7 +849,7 @@ export const destinations = [
         name: "Norwegen",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "seasonal",
+        destination: "",
     },
     {
         img: img5,
@@ -858,7 +858,7 @@ export const destinations = [
         name: "Germany",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "best",
+        destination: "",
     },
     {
         img: img1,
@@ -867,7 +867,7 @@ export const destinations = [
         name: "Italy",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "seasonal",
+        destination: "",
     },
     {
         img: img2,
@@ -876,7 +876,7 @@ export const destinations = [
         name: "China",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "city",
+        destination: "",
     },
     {
         img: img5,
@@ -885,7 +885,7 @@ export const destinations = [
         name: "Ukraine",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "nature",
+        destination: "",
     },
     {
         img: img1,
@@ -894,7 +894,7 @@ export const destinations = [
         name: "Denmark",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "best",
+        destination: "",
     },
     {
         img: img4,
@@ -903,7 +903,7 @@ export const destinations = [
         name: "Poland",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "nature",
+        destination: "",
     },
     {
         img: img2,
@@ -912,7 +912,7 @@ export const destinations = [
         name: "Peru",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "nature",
+        destination: "",
     },
     {
         img: img3,
@@ -921,7 +921,7 @@ export const destinations = [
         name: "France",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "nature",
+        destination: "",
     },
     {
         img: img5,
@@ -930,7 +930,7 @@ export const destinations = [
         name: "Austria",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "nature",
+        destination: "",
     },
     {
         img: img2,
@@ -939,7 +939,7 @@ export const destinations = [
         name: "Switzerland",
         description:
             "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
-        destination: "best",
+        destination: "",
     },
     {
         img: img1,
@@ -948,7 +948,7 @@ export const destinations = [
         name: "Australia",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "nature",
+        destination: "",
     },
     {
         img: img3,
@@ -957,7 +957,7 @@ export const destinations = [
         name: "Slovenia",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "city",
+        destination: "",
     },
     {
         img: img4,
@@ -966,7 +966,7 @@ export const destinations = [
         name: "Estonia",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "seasonal",
+        destination: "",
     },
     {
         img: img5,
@@ -975,7 +975,7 @@ export const destinations = [
         name: "Finland",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "best",
+        destination: "",
     },
     {
         img: img2,
@@ -984,7 +984,7 @@ export const destinations = [
         name: "Switzerland",
         description:
             "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
-        destination: "best",
+        destination: "",
     },
     {
         img: img1,
@@ -993,7 +993,7 @@ export const destinations = [
         name: "Japan",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "nature",
+        destination: "",
     },
     {
         img: img3,
@@ -1002,7 +1002,7 @@ export const destinations = [
         name: "Thailand",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "city",
+        destination: "",
     },
     {
         img: img4,
@@ -1011,7 +1011,7 @@ export const destinations = [
         name: "Norwegen",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "seasonal",
+        destination: "",
     },
     {
         img: img5,
@@ -1020,7 +1020,7 @@ export const destinations = [
         name: "Germany",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "best",
+        destination: "",
     },
     {
         img: img1,
@@ -1029,7 +1029,7 @@ export const destinations = [
         name: "Italy",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "seasonal",
+        destination: "",
     },
     {
         img: img2,
@@ -1038,7 +1038,7 @@ export const destinations = [
         name: "China",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "city",
+        destination: "",
     },
     {
         img: img5,
@@ -1047,7 +1047,7 @@ export const destinations = [
         name: "Ukraine",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "nature",
+        destination: "",
     },
     {
         img: img1,
@@ -1056,7 +1056,7 @@ export const destinations = [
         name: "Denmark",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "best",
+        destination: "",
     },
     {
         img: img4,
@@ -1065,7 +1065,7 @@ export const destinations = [
         name: "Poland",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "nature",
+        destination: "",
     },
     {
         img: img2,
@@ -1074,7 +1074,7 @@ export const destinations = [
         name: "Peru",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "nature",
+        destination: "",
     },
     {
         img: img3,
@@ -1083,7 +1083,7 @@ export const destinations = [
         name: "France",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "nature",
+        destination: "",
     },
     {
         img: img5,
@@ -1092,7 +1092,7 @@ export const destinations = [
         name: "Austria",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "nature",
+        destination: "",
     },
     {
         img: img2,
@@ -1101,7 +1101,7 @@ export const destinations = [
         name: "Switzerland",
         description:
             "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
-        destination: "best",
+        destination: "",
     },
     {
         img: img1,
@@ -1110,7 +1110,7 @@ export const destinations = [
         name: "Australia",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "nature",
+        destination: "",
     },
     {
         img: img3,
@@ -1119,7 +1119,7 @@ export const destinations = [
         name: "Slovenia",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "city",
+        destination: "",
     },
     {
         img: img4,
@@ -1128,7 +1128,7 @@ export const destinations = [
         name: "Estonia",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "seasonal",
+        destination: "",
     },
     {
         img: img5,
@@ -1137,7 +1137,7 @@ export const destinations = [
         name: "Finland",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "best",
+        destination: "",
     },
     {
         img: img2,
@@ -1146,7 +1146,7 @@ export const destinations = [
         name: "Switzerland",
         description:
             "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
-        destination: "best",
+        destination: "",
     },
     {
         img: img1,
@@ -1155,7 +1155,7 @@ export const destinations = [
         name: "Japan",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "nature",
+        destination: "",
     },
     {
         img: img3,
@@ -1164,7 +1164,7 @@ export const destinations = [
         name: "Thailand",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "city",
+        destination: "",
     },
     {
         img: img4,
@@ -1173,7 +1173,7 @@ export const destinations = [
         name: "Norwegen",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "seasonal",
+        destination: "",
     },
     {
         img: img5,
@@ -1182,7 +1182,7 @@ export const destinations = [
         name: "Germany",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "best",
+        destination: "",
     },
     {
         img: img1,
@@ -1191,7 +1191,7 @@ export const destinations = [
         name: "Italy",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "seasonal",
+        destination: "",
     },
     {
         img: img2,
@@ -1200,7 +1200,7 @@ export const destinations = [
         name: "China",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "city",
+        destination: "",
     },
     {
         img: img5,
@@ -1209,7 +1209,7 @@ export const destinations = [
         name: "Ukraine",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "nature",
+        destination: "",
     },
     {
         img: img1,
@@ -1218,7 +1218,7 @@ export const destinations = [
         name: "Denmark",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "best",
+        destination: "",
     },
     {
         img: img4,
@@ -1227,7 +1227,7 @@ export const destinations = [
         name: "Poland",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "nature",
+        destination: "",
     },
     {
         img: img2,
@@ -1236,7 +1236,7 @@ export const destinations = [
         name: "Peru",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "nature",
+        destination: "",
     },
     {
         img: img3,
@@ -1245,7 +1245,7 @@ export const destinations = [
         name: "France",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "nature",
+        destination: "",
     },
     {
         img: img5,
@@ -1254,7 +1254,7 @@ export const destinations = [
         name: "Austria",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "nature",
+        destination: "",
     },
     {
         img: img2,
@@ -1263,7 +1263,7 @@ export const destinations = [
         name: "Switzerland",
         description:
             "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
-        destination: "best",
+        destination: "",
     },
     {
         img: img1,
@@ -1272,7 +1272,7 @@ export const destinations = [
         name: "Australia",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "nature",
+        destination: "",
     },
     {
         img: img3,
@@ -1281,7 +1281,7 @@ export const destinations = [
         name: "Slovenia",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "city",
+        destination: "",
     },
     {
         img: img4,
@@ -1290,7 +1290,7 @@ export const destinations = [
         name: "Estonia",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "seasonal",
+        destination: "",
     },
     {
         img: img5,
@@ -1299,7 +1299,7 @@ export const destinations = [
         name: "Finland",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "best",
+        destination: "",
     },
     {
         img: img2,
@@ -1308,7 +1308,7 @@ export const destinations = [
         name: "Switzerland",
         description:
             "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
-        destination: "best",
+        destination: "",
     },
     {
         img: img1,
@@ -1317,7 +1317,7 @@ export const destinations = [
         name: "Japan",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "nature",
+        destination: "",
     },
     {
         img: img3,
@@ -1326,7 +1326,7 @@ export const destinations = [
         name: "Thailand",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "city",
+        destination: "",
     },
     {
         img: img4,
@@ -1335,7 +1335,7 @@ export const destinations = [
         name: "Norwegen",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "seasonal",
+        destination: "",
     },
     {
         img: img5,
@@ -1344,7 +1344,7 @@ export const destinations = [
         name: "Germany",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "best",
+        destination: "",
     },
     {
         img: img1,
@@ -1353,7 +1353,7 @@ export const destinations = [
         name: "Italy",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "seasonal",
+        destination: "",
     },
     {
         img: img2,
@@ -1362,7 +1362,7 @@ export const destinations = [
         name: "China",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "city",
+        destination: "",
     },
     {
         img: img5,
@@ -1371,7 +1371,7 @@ export const destinations = [
         name: "Ukraine",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "nature",
+        destination: "",
     },
     {
         img: img1,
@@ -1380,7 +1380,7 @@ export const destinations = [
         name: "Denmark",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "best",
+        destination: "",
     },
     {
         img: img4,
@@ -1389,7 +1389,7 @@ export const destinations = [
         name: "Poland",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "nature",
+        destination: "",
     },
     {
         img: img2,
@@ -1398,7 +1398,7 @@ export const destinations = [
         name: "Peru",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "nature",
+        destination: "",
     },
     {
         img: img3,
@@ -1407,7 +1407,7 @@ export const destinations = [
         name: "France",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "nature",
+        destination: "",
     },
     {
         img: img5,
@@ -1416,7 +1416,7 @@ export const destinations = [
         name: "Austria",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "nature",
+        destination: "",
     },
     {
         img: img2,
@@ -1425,7 +1425,7 @@ export const destinations = [
         name: "Switzerland",
         description:
             "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
-        destination: "best",
+        destination: "",
     },
     {
         img: img1,
@@ -1434,7 +1434,7 @@ export const destinations = [
         name: "Australia",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "nature",
+        destination: "",
     },
     {
         img: img3,
@@ -1443,7 +1443,7 @@ export const destinations = [
         name: "Slovenia",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "city",
+        destination: "",
     },
     {
         img: img4,
@@ -1452,7 +1452,7 @@ export const destinations = [
         name: "Estonia",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "seasonal",
+        destination: "",
     },
     {
         img: img5,
@@ -1461,6 +1461,6 @@ export const destinations = [
         name: "Finland",
         description:
             "An island nation in East Asia, known for its unique culture, cutting-edge technology, and stunning natural scenery.",
-        destination: "best",
+        destination: "",
     },
 ];

@@ -4,16 +4,20 @@
 // practices. The code might appear rudimentary and unrefined, reflecting the educational
 // context in which it was developed.
 
-import React, { useEffect } from "react";
+import React, { useEffect, useLayoutEffect } from "react";
 import { destinations } from "../../destinations";
 import searchIcon from "../../assets/icons/search_icon.png";
 
 import "./destinations.styles.scss";
 import Footer from "../../components/footer/footer.component";
-import Header from "../../components/header/header.component";
 import PageUp from "../../components/page-up/page-up.component";
+import PageTopTemplate from "../../components/page-top-template/page-top-template.component";
 
 const Destinations = () => {
+    useLayoutEffect(() => {
+        window.scrollTo(0, 0);
+    });
+
     function chunkArray(array, chunkSize) {
         const chunks = [];
         for (let i = 0; i < array.length; i += chunkSize) {
@@ -345,22 +349,7 @@ const Destinations = () => {
 
     return (
         <section className="destinations">
-            <section className="hero">
-                <Header />
-                <div className="container">
-                    <div>
-                        <a className="hero-link" href="/">
-                            Home
-                        </a>
-                        <span> | </span>
-                        <a className="hero-link" href="#destinations">
-                            Destinations
-                        </a>
-                    </div>
-                    <h1 className="title">DESTINATIONS</h1>
-                </div>
-            </section>
-
+            <PageTopTemplate nameOfPage="Destinations" />
             <section id="destination1" className="destination1">
                 <div className="bar-section">
                     <div>
