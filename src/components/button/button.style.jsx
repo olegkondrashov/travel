@@ -28,6 +28,8 @@ export const BlueButton = styled(TransparentButton)`
 `
 
 export const RoundedButton = styled(TransparentButton)`
+    display: flex;
+    align-items: center;
     font: 20px/100% 'Poppins';
     padding: 10px;
     border-radius: 50%;

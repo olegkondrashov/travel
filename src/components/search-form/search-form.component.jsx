@@ -16,8 +16,10 @@ const SearchForm = () => {
     return (
         <div className="search-form">
             <form id="form">
-                <label htmlFor="destination">
-                    Destinations
+                <div className="search-form__item">
+                    <label htmlFor="destination">
+                        Destinations
+                    </label>
                     <svg
                         width="24"
                         height="24"
@@ -40,10 +42,12 @@ const SearchForm = () => {
                         <option value="Greece">Greece</option>
                         <option value="Italy">Italy</option>
                     </select>
-                </label>
+                </div>
 
-                <label htmlFor="date">
-                    Date
+                <div className="search-form__item">
+                    <label htmlFor="date">
+                        Date
+                    </label>
                     <svg
                         width="24"
                         height="24"
@@ -60,12 +64,14 @@ const SearchForm = () => {
                         id="date"
                         type="date"
                         value={date}
-                        placeholder="Date"
+                        placeholder="mm-dd-yyyy"
                         onChange={(e) => setDate(e.target.value)}
                     />
-                </label>
-                <label htmlFor="price">
-                    Price
+                </div>
+                <div className="search-form__item">
+                    <label htmlFor="price">
+                        Price
+                    </label>
                     <svg
                         width="24"
                         height="24"
@@ -76,7 +82,7 @@ const SearchForm = () => {
                         <path
                             d="M12 16.5C11.8082 16.5 11.6162 16.4267 11.4698 16.2802L3.96975 8.78024C3.67669 8.48717 3.67669 8.01261 3.96975 7.71974C4.26281 7.42686 4.73738 7.42667 5.03025 7.71974L12 14.6895L18.9698 7.71974C19.2628 7.42667 19.7374 7.42667 20.0303 7.71974C20.3231 8.0128 20.3233 8.48736 20.0303 8.78024L12.5303 16.2802C12.3838 16.4267 12.1918 16.5 12 16.5Z"
                             fill="#4997D3"
-                        />
+                            />
                     </svg>
                     <select
                         name="price"
@@ -88,7 +94,7 @@ const SearchForm = () => {
                         <option value="$2,000 - $3,000">$2,000 - $3,000</option>
                         <option value="$3,000 - $4,000">$3,000 - $4,000</option>
                     </select>
-                </label>
+                </div>
                 <Button 
                     buttonType={BUTTON_TYPE_CLASSES.blue}
                     className="button-search"

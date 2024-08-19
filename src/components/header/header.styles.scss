@@ -2,7 +2,7 @@
 
 .header {
     position: absolute;
-    top: 0;
+    top: 10px;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -13,7 +13,7 @@
     padding: 10px 20px 0;
     
     .button-sign-in {
-        font-size: 14px;
+        font-size: 16px;
         padding: 10px 13px;
     }
 }
