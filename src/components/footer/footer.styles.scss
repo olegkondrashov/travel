@@ -13,6 +13,30 @@
 	width: 80%;
 	margin: 0 auto;
 }
+.nav {
+	display: flex;
+	list-style: none;
+	gap: 80px;
+}
+.nav-link {
+	position: relative;
+	text-decoration: none;
+	color: #fff;
+	font-size: 16px;
+	&:hover {
+		&::after {
+			content: '';
+			height: 2px;
+			width: 100%;
+			display: block;
+			position: absolute;
+			bottom: -5px;
+			background: #fff;
+			animation: link-hover .2s linear;
+		}
+	}
+}
+
 .social-media-icons {
 	display: flex;
 	gap: 24px;
