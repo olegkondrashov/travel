@@ -4,7 +4,9 @@
 // practices. The code might appear rudimentary and unrefined, reflecting the educational
 // context in which it was developed.
 
-import React, { useEffect, useLayoutEffect } from "react";
+import React, { useLayoutEffect } from "react";
+
+import bg from "../../assets/bg_1.webp";
 
 import "./destinations.styles.scss";
 import Footer from "../../components/footer/footer.component";
@@ -12,11 +14,13 @@ import PageUp from "../../components/page-up/page-up.component";
 import PageTopTemplate from "../../components/page-top-template/page-top-template.component";
 import BarSection from "../../components/bar-section/bar-section.component";
 import DestinationCards from "../../components/destination-cards/destination-cards.component";
+import { destinations } from "../../destinations";
+import { LayoutProvider } from "../../contexts/layout.context";
 
 const Destinations = () => {
     useLayoutEffect(() => {
         window.scrollTo(0, 0);
-    });
+    }, []);
 
     // useEffect(() => {
     //     const btn1 = document.querySelectorAll(".btnJs"),
@@ -338,15 +342,20 @@ const Destinations = () => {
     // });
 
     return (
-        <section className="destinations">
-            <PageTopTemplate nameOfPage="Destinations" />
-            <section id="destination1" className="destination1">
-                <BarSection />
+        <LayoutProvider>
+            <section className="destinations">
+                <PageTopTemplate nameOfPage="Destinations" bg={bg} />
+                <section id="destination1" className="destination1">
+                    <BarSection title="Popular Destinations" />
+                </section>
+                <DestinationCards
+                    destinationsArray={destinations}
+                    cardsPerPage={11}
+                />
+                <Footer />
+                <PageUp />
             </section>
-            <DestinationCards />
-            <Footer />
-            <PageUp />
-        </section>
+        </LayoutProvider>
     );
 };
 

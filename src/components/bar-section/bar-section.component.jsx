@@ -1,40 +1,99 @@
+import React from "react";
+import { useLayoutContext } from "../../contexts/layout.context";
 import searchIcon from "../../assets/icons/search_icon.png";
 import "./bar-section.styles.scss";
 
-const BarSection = () => {
+const BarSection = ({ title }) => {
+    const {
+        layoutMode,
+        handleLayoutChange,
+        handleSearchChange,
+        filterDestination,
+        handleDestinationFilterChange,
+    } = useLayoutContext();
+
+    const handleInputChange = (event) => {
+        handleSearchChange(event.target.value);
+    };
+
+    const handleFilterChange = (event) => {
+        const destination = event.target.getAttribute("data-destination");
+        handleDestinationFilterChange(destination);
+    };
+
     return (
         <div className="bar-section">
             <div>
-                <h4 className="subtitle">POPULAR DESTINATIONS</h4>
+                <h4 className="subtitle">{title}</h4>
             </div>
 
             <div className="search-input">
-                <input id="search" type="search" placeholder="Search" />
+                <input
+                    id="search"
+                    type="search"
+                    placeholder="Search"
+                    onChange={handleInputChange}
+                />
                 <button>
                     <img src={searchIcon} alt="search icon" />
                 </button>
             </div>
 
             <div className="bar-section__buttons">
-                <button data-destination="all" className="button btnJs active">
+                <button
+                    data-destination="all"
+                    className={`button btnJs ${
+                        filterDestination === "all" ? "active" : ""
+                    }`}
+                    onClick={handleFilterChange}
+                >
                     All
                 </button>
-                <button data-destination="best" className="button btnJs">
+                <button
+                    data-destination="best"
+                    className={`button btnJs ${
+                        filterDestination === "best" ? "active" : ""
+                    }`}
+                    onClick={handleFilterChange}
+                >
                     Best Seller
                 </button>
-                <button data-destination="nature" className="button btnJs">
+                <button
+                    data-destination="nature"
+                    className={`button btnJs ${
+                        filterDestination === "nature" ? "active" : ""
+                    }`}
+                    onClick={handleFilterChange}
+                >
                     Nature
                 </button>
-                <button data-destination="city" className="button btnJs">
+                <button
+                    data-destination="city"
+                    className={`button btnJs ${
+                        filterDestination === "city" ? "active" : ""
+                    }`}
+                    onClick={handleFilterChange}
+                >
                     City
                 </button>
-                <button data-destination="seasonal" className="button btnJs">
+                <button
+                    data-destination="seasonal"
+                    className={`button btnJs ${
+                        filterDestination === "seasonal" ? "active" : ""
+                    }`}
+                    onClick={handleFilterChange}
+                >
                     Seasonal
                 </button>
             </div>
 
             <div className="bar-section__buttons">
-                <button className="button button-with-icon button-grid active">
+                <button
+                    className={`button button-with-icon button-grid ${
+                        layoutMode === "cards-grid" ? "active" : ""
+                    }`}
+                    onClick={() => handleLayoutChange("cards-grid")}
+                >
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="20"
@@ -68,7 +127,12 @@ const BarSection = () => {
                     </svg>
                     Grid View
                 </button>
-                <button className="button button-with-icon button-flex">
+                <button
+                    className={`button button-with-icon button-flex ${
+                        layoutMode === "cards-flex" ? "active" : ""
+                    }`}
+                    onClick={() => handleLayoutChange("cards-flex")}
+                >
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="20"

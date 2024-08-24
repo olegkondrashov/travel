@@ -1,51 +1,80 @@
 import React, { useMemo } from "react";
-import { usePaginationContext } from "../../contexts/pagination.context";
-import { destinations } from "../../destinations";
 import "./destination-cards.styles.scss";
+import { usePaginationContext } from "../../contexts/pagination.context";
+import { useLayoutContext } from "../../contexts/layout.context";
 
 // Utility function to split an array into smaller chunks of a specified size
 const chunkArray = (array, chunkSize) => {
+    if (!Array.isArray(array)) {
+        // If the array is not actually an array, return an empty array to prevent errors
+        return [];
+    }
+
     const chunks = [];
-    // Loop through the array, slicing it into chunks
     for (let i = 0; i < array.length; i += chunkSize) {
         chunks.push(array.slice(i, i + chunkSize));
     }
     return chunks;
 };
 
-const DestinationCards = () => {
-    // Extract pagination-related state and functions from context
+const DestinationCards = ({
+    destinationsArray = [],
+    cardsPerPage,
+    className,
+}) => {
+    const { layoutMode, searchQuery, filterDestination } = useLayoutContext();
+
+    // Filter destinations based on search query and selected category
+    const filteredDestinations = useMemo(() => {
+        return destinationsArray.filter((destination) => {
+            const matchesSearchQuery = destination.name
+                .toLowerCase()
+                .includes(searchQuery);
+            const matchesDestinationFilter =
+                filterDestination === "all" ||
+                destination.destination === filterDestination;
+            return matchesSearchQuery && matchesDestinationFilter;
+        });
+    }, [destinationsArray, searchQuery, filterDestination]);
+
+    // Chunk the filtered destinations
+    const cardChunks = useMemo(
+        () => chunkArray(filteredDestinations, cardsPerPage),
+        [filteredDestinations, cardsPerPage]
+    );
+
     const { currentPage, handleNextPage, handlePrevPage, goToPage } =
         usePaginationContext();
 
-    // Memoize the chunked array to avoid recalculating it on every render
-    const cardChunks = useMemo(() => chunkArray(destinations, 11), []);
-    const totalPages = cardChunks.length; // Calculate the total number of pages
+    const totalPages = cardChunks.length;
 
     const visibleRange = 2; // Number of pages to show before and after the current page
 
-    // Determine which page numbers should be visible in the pagination
     const visiblePages = useMemo(() => {
-        // Calculate the range of pages to display based on the current page
         const startPage = Math.max(0, currentPage - visibleRange);
         const endPage = Math.min(totalPages - 1, currentPage + visibleRange);
+        if (totalPages < 4) {
+            return [...Array(totalPages).keys()].slice(startPage, endPage);
+        }
 
-        // Special case: ensure that the last few pages are always visible when near the end
         if (currentPage >= totalPages - visibleRange - 1) {
             return [...Array(totalPages).keys()].slice(totalPages - 4);
         }
 
-        // Return the range of pages to be displayed
         return [...Array(totalPages).keys()].slice(startPage, endPage + 1);
     }, [currentPage, totalPages]);
 
-    // Determine if we should show the "..." after the visible page numbers
     const shouldShowDotsAfter = currentPage < totalPages - visibleRange - 1;
 
     return (
         <div className="cards-wrapper">
-            {/* Render the cards for the current page */}
-            <div className="cards cards-grid">
+            {/* Dynamic card container className */}
+            <div
+                className={`cards ${layoutMode} ${
+                    //this is only for tours page
+                    layoutMode === "cards-grid" ? className : ""
+                }`}
+            >
                 {cardChunks[currentPage]?.map((destination, index) => (
                     <div key={index} className="card">
                         <img
@@ -55,7 +84,9 @@ const DestinationCards = () => {
                         />
                         <div className="card-content">
                             <h4 className="card-content__title">
-                                {destination.name}
+                                {destination.nameOfTour
+                                    ? destination.nameOfTour
+                                    : destination.name}
                             </h4>
                             <div className="card-content__pricing">
                                 <div>
@@ -71,7 +102,11 @@ const DestinationCards = () => {
                                             fill="white"
                                         />
                                     </svg>
-                                    <p>{destination.packages} Packages</p>
+                                    {destination.packages ? (
+                                        <p>{destination.packages} Packages</p>
+                                    ) : (
+                                        <p>{destination.name}</p>
+                                    )}
                                 </div>
                                 <span> | </span>
                                 <div>
@@ -98,8 +133,50 @@ const DestinationCards = () => {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                    <p>{destination.priceRange}</p>
+                                    {destination.priceRange ? (
+                                        <p>{destination.priceRange}</p>
+                                    ) : (
+                                        <p>
+                                            Start from ${destination.priceFrom}
+                                        </p>
+                                    )}
                                 </div>
+                                {destination.days ? (
+                                    <>
+                                        <span> | </span>
+                                        <div>
+                                            <svg
+                                                width="20"
+                                                height="20"
+                                                viewBox="0 0 20 20"
+                                                fill="none"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                            >
+                                                <g clipPath="url(#clip0_56_3377)">
+                                                    <path
+                                                        d="M13.5634 11.766L10.7748 9.67461V5.41438C10.7748 4.98602 10.4286 4.63977 10.0002 4.63977C9.57184 4.63977 9.22559 4.98602 9.22559 5.41438V10.062C9.22559 10.3059 9.34023 10.536 9.53543 10.6816L12.6338 13.0054C12.7732 13.11 12.9359 13.1604 13.0978 13.1604C13.334 13.1604 13.5664 13.0542 13.7182 12.8497C13.9755 12.5081 13.9057 12.0224 13.5634 11.766Z"
+                                                        fill="white"
+                                                    />
+                                                    <path
+                                                        d="M10 0C4.48566 0 0 4.48566 0 10C0 15.5143 4.48566 20 10 20C15.5143 20 20 15.5143 20 10C20 4.48566 15.5143 0 10 0ZM10 18.4508C5.34082 18.4508 1.54918 14.6592 1.54918 10C1.54918 5.34082 5.34082 1.54918 10 1.54918C14.66 1.54918 18.4508 5.34082 18.4508 10C18.4508 14.6592 14.6592 18.4508 10 18.4508Z"
+                                                        fill="white"
+                                                    />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_56_3377">
+                                                        <rect
+                                                            width="20"
+                                                            height="20"
+                                                            fill="white"
+                                                        />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+
+                                            <p>{destination.days} Days</p>
+                                        </div>
+                                    </>
+                                ) : null}
                             </div>
                             <p className="card-content__description">
                                 {destination.description}
@@ -114,7 +191,6 @@ const DestinationCards = () => {
 
             {/* Pagination controls */}
             <div className="cards-pagination-wrapper">
-                {/* Button to go to the previous page */}
                 <button
                     className="cards-pagination__button cards-pagination__button-prev"
                     onClick={handlePrevPage}
@@ -137,47 +213,31 @@ const DestinationCards = () => {
                 </button>
 
                 <div className="cards-pagination-container">
-                    {/* List of pagination items */}
                     <ul className="cards-pagination">
-                        {visiblePages.map((page) => {
-                            if (page === totalPages - 1) {
-                                // Hide the last page number if it's the totalPages item
-                                return (
-                                    <li
-                                        key={page}
-                                        className="cards-pagination__item"
-                                        style={{
-                                            display: "none",
-                                        }}
-                                    />
-                                );
-                            } else {
-                                // Render the page number buttons
-                                return (
-                                    <li
-                                        key={page}
-                                        className={`cards-pagination__item ${
-                                            page === currentPage
-                                                ? "pagination__item-current"
-                                                : ""
-                                        }`}
+                        {visiblePages.map((page) =>
+                            page === totalPages - 1 ? null : (
+                                <li
+                                    key={page}
+                                    className={`cards-pagination__item ${
+                                        page === currentPage
+                                            ? "pagination__item-current"
+                                            : ""
+                                    }`}
+                                >
+                                    <button
+                                        className="cards-pagination__link"
+                                        onClick={() => goToPage(page)}
                                     >
-                                        <button
-                                            className="cards-pagination__link"
-                                            onClick={() => goToPage(page)}
-                                        >
-                                            {page + 1}
-                                        </button>
-                                    </li>
-                                );
-                            }
-                        })}
+                                        {page < 9 ? "0" + (page + 1) : page + 1}
+                                    </button>
+                                </li>
+                            )
+                        )}
                         {shouldShowDotsAfter && (
                             <span className="cards-pagination__dots">...</span>
                         )}
                     </ul>
 
-                    {/* Display the total number of pages */}
                     <button
                         className={`cards-pagination__total ${
                             currentPage === totalPages - 1
@@ -186,11 +246,10 @@ const DestinationCards = () => {
                         }`}
                         disabled
                     >
-                        {totalPages}
+                        {totalPages < 9 ? "0" + totalPages : totalPages}
                     </button>
                 </div>
 
-                {/* Button to go to the next page */}
                 <button
                     className="cards-pagination__button cards-pagination__button-next"
                     onClick={() => handleNextPage(totalPages)}

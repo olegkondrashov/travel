@@ -3,9 +3,16 @@ import Header from "../header/header.component";
 
 import "./page-top-template.styles.scss";
 
-const PageTopTemplate = ({ nameOfPage, childOfPage }) => {
+const PageTopTemplate = ({ nameOfPage, childOfPage, bg }) => {
+    const formattedName = nameOfPage.replace(/\s+/g, "").toLowerCase();
+
     return (
         <section className="hero">
+            <img
+                className="hero__bg"
+                src={bg}
+                alt={`${nameOfPage} background`}
+            />
             <Header />
             <div className="container">
                 <div>
@@ -13,10 +20,7 @@ const PageTopTemplate = ({ nameOfPage, childOfPage }) => {
                         Home
                     </Link>
                     <span> | </span>
-                    <Link
-                        className="hero-link"
-                        to={`/${nameOfPage.toLowerCase()}`}
-                    >
+                    <Link className="hero-link" to={`/${formattedName}`}>
                         {nameOfPage}
                     </Link>
                     {childOfPage ? (
