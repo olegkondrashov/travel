@@ -1,0 +1,157 @@
+.about{
+    &__description {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        p {
+            margin: 80px;
+        }
+    }
+    &__values {
+        background: #d3d3d3;
+        border-radius: 24px;
+        padding: 3rem 0;
+        * {
+            text-align: center;
+        }
+        .box {
+            margin: 0;
+        }
+    }
+    &__visualisation {
+        display: flex;
+        margin-top: 160px;
+        &__icons {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            gap: 65px;
+            width: 15%;
+
+            .icons__icon {
+                width: 165px;
+                height: 165px;
+                position: relative;
+                box-shadow: 0px 3px 0px 1px #22222225;
+                svg {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
+                &__active { 
+                    width: 150% !important;
+                    border-radius: 80px 0 0 80px;
+                    z-index: -2;
+                    svg {
+                        left: 80px;
+                    }
+                }
+            }
+        }
+        &__video {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 85%;
+            box-shadow: 0px 3px 0px 1px #22222225;
+            border-radius: 100px;
+            padding: 50px;
+            background: #fff;
+            z-index: -1;
+            *{
+                color: #fff;
+            }
+            >img  {
+                position: absolute;
+                height: calc(100% - 100px);
+                width: calc(100% - 100px);
+                border-radius: 50px;
+                top: 50px;
+                left: 50px;
+                z-index: -1;
+                object-fit: cover;
+            }
+            
+            & div:nth-child(2) {
+                display: flex;
+                justify-content: space-between;
+                height: 100%;
+                border-radius: 50px 50px 0 0;
+                padding: 60px;
+                h4 {
+                    font-size: 40px;
+                    line-height: 50px;
+                }
+                p {
+                    display: inline-block;
+                    height: max-content;
+                    font-size: 20px;
+                    line-height: 30px;
+                    max-width: 450px;
+                    padding-right: 14px;
+                    position: relative;
+                    &::before {
+                        content: '';
+                        position: absolute;
+                        right: 0;
+                        top: 0;
+                        height: 100%;
+                        width: 1px;
+                        background: #fff;
+
+                    }
+                }
+            }
+            & div:nth-child(3){
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-end;
+                height: 60%;
+                background: linear-gradient(to bottom, rgba(217, 217, 217, 0.4), rgba(0, 0, 0, 0.4));
+                border: none;
+                border-radius: 0 0 50px 50px;
+                padding: 35px 60px;
+                h2 {
+                    color: #fff;
+                    font-size: 7rem;
+                    line-height: 150px;
+                }
+                a {
+                    img {
+                        height: 120px;
+                        width: 120px;
+                    }
+                }
+            }
+        }
+    }
+    &-main {
+        padding: 160px 5rem 0;
+    }
+}
+
+@media screen and (max-width: 1439px) {
+    .about {
+        &__visualisation {
+            &__icons {
+                gap: 20px;
+                .icons {
+                    &__icon {
+                        width: 120px;
+                        height: 120px;
+                    }
+                }
+            }
+            &__video{
+                div:nth-child(3) {
+                    h2 {
+                        font-size: 4rem;
+                    }
+                }
+            }
+        }
+    }
+}

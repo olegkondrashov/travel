@@ -344,7 +344,11 @@ const Destinations = () => {
     return (
         <LayoutProvider>
             <section className="destinations">
-                <PageTopTemplate nameOfPage="Destinations" bg={bg} />
+                <PageTopTemplate
+                    nameOfPage="Destinations"
+                    bg={bg}
+                    link="destinations"
+                />
                 <section id="destination1" className="destination1">
                     <BarSection title="Popular Destinations" />
                 </section>

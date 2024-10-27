@@ -11,7 +11,9 @@ import Contact from './pages/contact/contact.component';
 import { PaginationProvider } from './contexts/pagination.context';
 import { CardProvider } from './contexts/card.context';
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
   <React.StrictMode>
     <PaginationProvider>
@@ -20,7 +22,7 @@ root.render(
             <Routes>
                 <Route index element={<App />} />
                 <Route  path="destinations" element={<Destinations />} />
-                <Route  path="tourpackages" element={<Tours />} />
+                <Route  path="tours" element={<Tours />} />
                 <Route  path="about" element={<About />} />
                 <Route  path="blog" element={<Blog />} />
                 <Route  path="contact" element={<Contact />} />

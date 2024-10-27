@@ -1,0 +1,59 @@
+.team {
+    margin-top: 80px;
+    &-title {
+        font-size: 40px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    &-section {
+        display: grid;
+        justify-content: center;
+        grid-auto-rows: 300px;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+        padding-top: 50px;
+        .team-member {
+            position: relative;
+            border-radius: 25px;
+            overflow: hidden;
+            padding: 30px 0;
+            * {
+                color: #fff;
+            }
+            &:nth-child(1) {
+                grid-row: span 2;
+                >.card-content {
+                    padding: 160px 15px 15px;
+                }
+            }
+            &:nth-child(4), &:nth-child(5) {
+                grid-column: span 2;
+                >.card-content {
+                    padding: 15px;
+                }
+            }
+        }
+        .card-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+        .card-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            position: absolute;
+            bottom: -50%;
+            height: 100%;
+            width: 100%;
+            border-radius: 0px 0px 25px 25px;
+            background: linear-gradient(0deg, #222 50%, rgba(34, 34, 34, 0.00) 100%);
+            padding: 70px 15px 15px;
+            gap: 10px;
+        }
+    }
+}

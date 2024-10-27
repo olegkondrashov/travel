@@ -27,7 +27,7 @@ const Navigation = () => {
                     </Link>
                 </li>
                 <li>
-                    <Link to="/tourpackages">Tours</Link>
+                    <Link to="/tours">Tours</Link>
                 </li>
                 <li>
                     <Link to="/about">About</Link>

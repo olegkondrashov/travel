@@ -30,7 +30,11 @@ const Tours = () => {
     return (
         <LayoutProvider>
             <section className="tours">
-                <PageTopTemplate nameOfPage="Tour Packages" bg={bg} />
+                <PageTopTemplate
+                    nameOfPage="Tour Packages"
+                    bg={bg}
+                    link="tours"
+                />
                 <section id="destination1" className="destination1">
                     <BarSection title={"OUR TOUR PACKAGES"} />
                 </section>
