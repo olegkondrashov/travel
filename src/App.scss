@@ -10,6 +10,10 @@ h1 {
     font: $--heading-4-font;
 }
 
+a {
+    color: inherit;
+}
+
 .background-image {
     position: absolute;
     top: 0;
