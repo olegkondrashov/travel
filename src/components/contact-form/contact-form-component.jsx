@@ -4,7 +4,7 @@ import Button, { BUTTON_TYPE_CLASSES } from "../button/button.component";
 
 import "./contact-form.styles.scss";
 
-const ContaktForm = () => {
+const ContactForm = () => {
     return (
         <section className="contact">
             <div className="contact-form">
@@ -58,4 +58,4 @@ const ContaktForm = () => {
     );
 };
 
-export default ContaktForm;
+export default ContactForm;

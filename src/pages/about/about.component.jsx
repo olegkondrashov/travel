@@ -14,10 +14,9 @@ import play from "../../assets/icons/Play-Button.png";
 import PageTopTemplate from "../../components/page-top-template/page-top-template.component";
 import Values from "../../components/values/values.component";
 import "./about.styles.scss";
-import { LayoutProvider } from "../../contexts/layout.context";
 import Footer from "../../components/footer/footer.component";
 import Team from "../../components/team/team.section";
-import ContaktForm from "../../components/contact-form/contact-form-component";
+import ContactForm from "../../components/contact-form/contact-form-component";
 
 const About = () => {
     const iconItems = [
@@ -77,7 +76,7 @@ const About = () => {
     };
 
     return (
-        <LayoutProvider>
+        <>
             <section className="about">
                 <PageTopTemplate nameOfPage="About Us" bg={bg} link="about" />
                 <main className="about-main">
@@ -137,11 +136,11 @@ const About = () => {
                         </div>
                     </section>
                     <Team />
-                    <ContaktForm />
+                    <ContactForm />
                 </main>
             </section>
             <Footer />
-        </LayoutProvider>
+        </>
     );
 };
 
