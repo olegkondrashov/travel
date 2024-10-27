@@ -122,7 +122,7 @@ const About = () => {
                             ))}
                         </div>
                         <div className="about__visualisation__video">
-                            <img src={currentContent.background} alt="" />
+                            <img src={currentContent.background} alt="bg" />
                             <div>
                                 <h4>HOW IT WORKS</h4>
                                 <p>{currentContent.description}</p>
@@ -135,9 +135,8 @@ const About = () => {
                             </div>
                         </div>
                     </section>
-
-                    <Team />
                 </main>
+                <Team />
             </section>
             <Footer />
         </LayoutProvider>
